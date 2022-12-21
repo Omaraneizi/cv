@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ .Box{
+   height: 100vh;
+   background-image: url("");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+
+
+ }
+ .image{
+   height: 100vh;
+   background-image: url("Images/bacground.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+
+ }
+ .Innerbox{
+   max-width: 650px;
+   position: relative;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background: rgba(255, 255, 2555, 0.4);
+   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+   padding: 30px;
+   text-align: center;
+   letter-spacing: 2px;
+
+ }
+ .Innerbox h1{
+   font-size: 45px;
+ }
+ .Innerbox p{
+   margin: 10px;
+   font-size: 18px;
+ }body, html {
+  height: 100%;
+}
+.Box2{
+  height: 100vh;
+  background-image: url("Images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+
+}
+.Innerbox2{
+  max-width: 650px;
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255, 255, 2555, 0.4);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  text-align: center;
+  letter-spacing: 2px;
+
+}
+.Innerbox2 h1{
+  font-size: 45px;
+}
+.Innerbox2 p{
+  margin: 10px;
+  font-size: 18px;
+}body, html {
+ height: 100%;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("Images/background.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+<style>
+  *{
+    margin:0;
+    padding:0;
+  }
+.background-image {
+  background-position: center;
+  background-image: url("Images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vh ;
+  height:100vh ;
+
+}
+</style>
+<div class="background-image">
+
+</div>
